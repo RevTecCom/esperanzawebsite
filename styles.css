@@ -1,0 +1,44 @@
+body {
+    background-image: url("assets/textured_paper.png");
+}
+
+.topbar{
+    width:75%;
+    margin:auto;
+    border:2px solid black;
+    padding:10px;
+    font-size:16pt;
+    font-family: 'Atkinson Hyperlegible', Helvetica, Arial, sans-serif;
+    background-image: url("assets/textured_paper_fg.png");
+    border-radius: 12px;
+}
+
+.main-text{
+    width:75%;
+    margin:auto;
+    border:2px solid black;
+    padding:10px;
+    font-size:14pt;
+    font-family: 'Atkinson Hyperlegible', Helvetica, Arial, sans-serif;
+    background-image: url("assets/textured_paper_fg.png");
+}
+
+.latest-issue{
+    width:75%;
+    margin:auto;
+    border:2px solid black;
+    padding:10px;
+    font-size:14pt;
+    font-family: 'Atkinson Hyperlegible', Helvetica, Arial, sans-serif;
+    background-image: url("assets/textured_paper_fg.png");
+}
+
+a:link, a:visited{
+    color:black;
+    text-decoration:underline;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
