@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esperanza No. 1 | Q/A + Errata</title>
+	
+    <meta property="og:title" content="Esperanza | No. 1 Q/A & Errata" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://esperanza.comrades.sbs/accessibility.html" />
+    <meta property="og:image" content="https://esperanza.comrades.sbs/assets/espz-logo.png" />
+
+    <link rel="stylesheet" href="../styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+	<div class="topbar">
+		<img src="../assets/espz-logo.png" alt="Esperanza logo" width="500" height="100">
+		<br>
+		<div class="links">
+			<a href="../index.html">Main Page</a>&nbsp;|&nbsp;
+			<a href="../downloads.html">Downloads</a>&nbsp;|&nbsp;
+			<a href="../license.html">Licensing</a>&nbsp;|&nbsp;
+			<a href="../accessibility.html">Accessibility</a>&nbsp;&nbsp;
+		</div>
+	</div>
+	
+	<br><br>
+
+	<div class="main-text">
+        <h3>Questions & Answers - Esperanza Issue No. 1</h3>
+        We have received numerous criticisms from those who have read our text,
+        and so, we will address them in this page, in a Q/A format.<br><br>
+
+        <b>Question: By distributing the issue in PDF format, aren't you
+        opening up your users to vulnerabilities within PDF readers?</b><br>
+        <b>Answer:</b> It's true, 
+        many PDF readers are well-known to contain vulnerabilities, 
+        and those who open PDFs open themselves to an exploit, in the
+        same way that someone opens up others to malware via the sharing of
+        an audio or video file. This question is especially valid, as
+        2023 has been a particularly bountiful year for exploits
+        targeting Adobe Acrobat, the most popular PDF reader.<br><br>
+        However, the most likely vector for an attack would have been
+        for us to have
+        exploited a vulnerability in bad faith, which we have not done,
+        do not have the necessary knowledge to do,
+        and will never do. The other vector would have been for someone to
+        exploit LibreOffice's PDF exporter, for a background process to
+        have adulterated the file in the time between the export
+        and the upload, for GitHub to have adulterated
+        the file, or for an ISP to have adulterated it (in case of HTTP
+        connections). A wide library of possibilities, none of them likely
+        except for the last one.<br><br>
+        This user suggests we should have uploaded a plain-text version
+        of the text as a way to prevent vulnerabilities related to PDF
+        readers from being exploited. However, this is a scenario where
+        the format is of little importance. 
+        <a href="https://threatpost.com/researcher-exploits-microsofts-notepad-to-pop-a-shell/145242/">
+        Microsoft Notepad has seen a
+        remote code execution exploit.</a>
+         Notepad++, another popular text editor,
+        <a href="https://notepad-plus-plus.org/news/v857-released-fix-security-issues/">
+        has seen many vulnerabilities.
+        </a>
+         This stuff is just part of the
+        risk inherent to using software.<br><br>
+        We do agree on the fact that a plain-text version would be nice,
+        however, and we will provide one soon (re-formatting the spreadsheets
+        is particularly annoying). To say that providing one would mitigate
+        security risks in the real world is misleading.<br><br>
+
+        <b>Question: Have you not understated the dangers of an endpoint being
+        compromised? You seem to be pushing encryption as a panacea.</b><br>
+        <b>Answer:</b> We understand that we may have made it unclear that
+        encryption is worthless if a side of the communication is compromised.
+        This is indeed an oversight in the text. We had jumped to the 
+        incorrect conclusion that this may have been self-evident, which is why we 
+        left it out. We do not believe we are pushing encryption as a panacea, as we 
+        outlined specific use-cases instead of sticking to broad suggestions.<br><br>
+
+        <b>Question: Why have you not addressed specific targeted attacks that
+        are known to affect dissidents, such as keylogging, logging clipboard
+        contents, et. cetera?</b><br>
+        <b>Answer:</b> The article is a primer, and so does not deal with
+        common targeted attacks. A previous draft of the text mentioned that
+        it is not meant to protect against active (non-targeted) surveillance,
+        merely against
+        data theft (specifically theft of physical devices) and passive surveillance
+        techniques. We now realize that leaving this clarification out of the final text
+        was a mistake. Protection against targeted measures at an organizational level
+        requires a much more sophisticated setup.
+
+        <h3>Final Errata and Conclusion</h3>
+        We have left out the important notice that the compromise of an endpoint turns
+        encryption pointless. Furthermore, we have left out the necessary clarification
+        to indicate that our text is merely a primer, 
+        where the parts that deal with security focus mainly on the prevention of data
+        theft and communications.<br><br>
+        We must also bring forth an important piece of self-criticism. It is our belief
+        that the audience for the text was made unclear in general. The original intent
+        was to not make the text boring, but this ended up making it quite a disconnected
+        ordeal. Future issues of Esperanza will be smaller and focus on specifics rather than
+        the broad strokes. We will also further enhance the political aim of our texts,
+        pondering on issues rather than merely writing manuals.
+	</div>
+</body>
+</html>
